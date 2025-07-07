@@ -1,14 +1,9 @@
 # 📰 AI-Powered Fake News Detection System
 
 ## 🔍 Overview
-This project is designed to identify and classify fake news articles using machine learning techniques. Leveraging **TF-IDF** for feature extraction and **Logistic Regression** for classification, the system distinguishes between real and fake news based on textual content.
+This project aims to identify and classify fake news articles using machine learning techniques. Leveraging **TF-IDF** for feature extraction and **Logistic Regression** for classification, the system distinguishes between real and fake news based on textual content.
 
-> Developed during my Microsoft AI internship using GitHub Copilot for assisted development.
-
----
-
-## 📌 Problem Statement
-In today’s digital era, misinformation can spread rapidly across online platforms, leading to misinformed societies and manipulated public opinions. The goal of this project is to create a reliable system that automatically detects fake news to combat this growing problem.
+> Developed during my Microsoft AI internship using GitHub Copilot.
 
 ---
 
@@ -22,28 +17,25 @@ In today’s digital era, misinformation can spread rapidly across online platfo
 ---
 
 ## 🎯 Learning Objectives
-- Perform NLP-based preprocessing on textual data  
-- Use TF-IDF for feature extraction  
-- Train a Logistic Regression model for binary classification  
-- Evaluate performance using standard ML metrics  
-- Utilize GitHub Copilot for smart code suggestions
+- NLP-based text preprocessing  
+- Feature extraction using TF-IDF  
+- Supervised learning with Logistic Regression  
+- Model evaluation using accuracy, confusion matrix, and classification report  
+- Assisted development with GitHub Copilot
 
 ---
 
 ## 🧰 Tech Stack
 - **Language:** Python  
-- **Libraries:** pandas, scikit-learn, seaborn, matplotlib, re, string  
+- **Libraries:** pandas, scikit-learn, seaborn, matplotlib  
 - **Model:** Logistic Regression  
-- **Feature Extraction:** TF-IDF  
-- **Evaluation Metrics:** Accuracy, Confusion Matrix, Classification Report
+- **Evaluation Metrics:** Accuracy, Precision, Recall, F1-Score
 
 ---
 
 ## 🛠️ Setup Instructions
-1. Clone the repository  
 ```bash
-
+git clone https://github.com/Sparshjain65/AI-Powered-Fake-News-Detection-System.git
+cd AI-Powered-Fake-News-Detection-System
 pip install -r requirements.txt
-
 python fake_news_detection.py
-
