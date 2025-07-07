@@ -1,0 +1,16 @@
+📊 Results
+Achieved high accuracy in fake news detection
+
+Confusion matrix visualized using seaborn
+
+Performance validated with classification report
+
+🚀 Future Scope
+Integrate with real-time news APIs
+
+Upgrade to deep learning (LSTM, BERT)
+
+Deploy as a web application using Streamlit
+
+Expand to multilingual news articles
+
