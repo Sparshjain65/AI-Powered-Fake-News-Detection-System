@@ -2,11 +2,3 @@
 Special thanks to Microsoft, AICTE, and GitHub Copilot for enabling this learning experience
 ---
 
-### 📤 Upload Files
-You can now upload these files to your GitHub repo via:
-1. GitHub Web: Drag & drop into the root of your repository.
-2. Git CLI:
-```bash
-git add .
-git commit -m "Initial project upload: Fake News Detection System"
-git push origin main
